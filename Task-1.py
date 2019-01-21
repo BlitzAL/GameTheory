@@ -50,9 +50,9 @@ if __name__ == "__main__":
         else: 
             print("Unknown message: {}".format(result))
             exit(1)
-        if turn == 1: #Думаем о том что бы кинуть
+        if turn == 1: 
            count = count + 1
-        if count == 4: #О лошок кидаем пацана
+        if count == 4:
            count = 0
            turn = 0
         move = turn
